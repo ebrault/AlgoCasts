@@ -14,12 +14,14 @@ function palindrome(str) {
 module.exports = palindrome;
 
 // Solution 1:
+// function palindrome(str) {
 // if (str.length < 2) {
 //   return true;
 // } else if (str[0] != str[str.length - 1]){
 //   return false
 // } else {
 //   return palindrome(str.slice(1, str[str.length - 1]))
+// }
 // }
 
 // Solution 2:
